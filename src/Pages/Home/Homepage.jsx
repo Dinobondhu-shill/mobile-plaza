@@ -1,5 +1,6 @@
-import Categories from "../Categories";
+import Categories from "./Categories";
 import Banner from "./Banner";
+import BestSeller from "./BestSeller";
 
 const Homepage = () => {
   return (
@@ -15,6 +16,7 @@ const Homepage = () => {
 </marquee>
       </div>
       <Categories />
+      <BestSeller />
     </div>
   );
 };
